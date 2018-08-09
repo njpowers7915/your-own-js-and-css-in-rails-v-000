@@ -1,2 +1,3 @@
-function hideWhenClicked(element)
+function hideWhenClicked(element) {
   return element.hide_this
+}
