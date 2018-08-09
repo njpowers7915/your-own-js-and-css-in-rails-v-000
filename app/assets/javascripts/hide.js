@@ -1,7 +1,5 @@
-$("#hide_this").bind("click", function () {
-  return
-}
+$("#hide_this").bind("click", hideWhenClicked())
 
 function hideWhenClicked(element) {
-  return element.hide_this
+  return element.hide()
 }
